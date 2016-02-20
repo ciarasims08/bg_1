@@ -8,14 +8,7 @@
 
 
 /* Landing page */
-#homescreen{
-  background: url("./bg_site.JPG") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 10px;
-}
+
 
 html {
 	overflow: hidden;
@@ -42,7 +35,15 @@ html {
 #login-btn a {
 	color: #1da1f2;
 }
-@media only screen and (max-width: 645px) {
+@media only screen and (max-width: 600px) {
+	#homescreen{
+	  background: url("./bg_site.JPG") no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  padding-top: 10px;
+	}
     #buttons {
     margin-top: 550px;
     margin-left: 15%;
