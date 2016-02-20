@@ -12,6 +12,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.5', '>= 3.5.6'
+gem 'rails_12factor'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :production do
