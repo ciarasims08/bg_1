@@ -14,6 +14,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+group :production do
+	gem 'pg'
+end
 
 group :development, :test do
   gem 'byebug'
