@@ -37,20 +37,20 @@ html {
 }
 @media only screen and (max-width: 600px) {
 	#homescreen{
-	  background: url("./bg_site.JPG") no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	  padding-top: 10px;
+	  	background: url("./bg_site.JPG") no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	  	padding-top: 10px;
 	}
     #buttons {
-    margin-top: 550px;
-    margin-left: 15%;
-    margin-right: 45%;
-    width: 70%;
-    text-align: center;
-}
+	    margin-top: 515px;
+	    margin-left: 15%;
+	    margin-right: 45%;
+	    width: 70%;
+	    text-align: center;
+	}
 
 	#buttons2 {
 	    margin-top: 15px;
