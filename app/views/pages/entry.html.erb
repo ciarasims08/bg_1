@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Braingame1</title>
+  
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+	<h1>Home screen</h1>
+
+	<button><%= link_to "Login", new_user_session_path %></button>
+	<button><%= link_to "Signup", new_user_registration_path %></button>
+
+</body>
+</html>
