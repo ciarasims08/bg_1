@@ -7,11 +7,20 @@
   <%= csrf_meta_tags %>
 
 </head>
-<body>
-	<h1>Home screen</h1>
+<body id="homescreen">
 
-	<button><%= link_to "Login", new_user_session_path %></button>
-	<button><%= link_to "Signup", new_user_registration_path %></button>
+	<!-- <button id="signup-btn"><%= button_to "Sign up", new_user_session_path, :method => "get" %></button> -->
+	<!-- <button id="signup-btn" class="btn btn-default btn-lg"><%= link_to "Sign Up", new_user_session_path %></button> -->
+	<div id="buttons">
+		<%= link_to '<button id="signup-btn" class="btn btn-default btn-lg">Sign up</button>'.html_safe, new_user_session_path, :id => "signup-btn", :class => "button_class" %>
+	</div>
+	<div id="buttons2">
+		<p id="login-btn-p">Already signed up? 
+			<a id="login-btn"><%= link_to "Login", new_user_session_path %></a>
+		</p>
+	</div>
+	<script>
+	</script>
 
 </body>
 </html>
